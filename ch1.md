@@ -20,5 +20,4 @@ However, Cython is more limited than writing extension by hand.
 
 
 ## Python Slow? Why?
-
-"""Python is an interpreted, high-level, general-purpose programming language. It is dynamically typed and garbage-collected."""
+> "Python is an interpreted, high-level, general-purpose programming language. It is dynamically typed and garbage-collected"
