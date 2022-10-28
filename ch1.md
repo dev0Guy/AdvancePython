@@ -37,3 +37,4 @@ However, Cython is more limited than writing extension by hand.
 
 - **Objects:**  Evrey Python varible is an PyObject. PyObject possessed memory address, typecode of the varible(integer,str,....), value (the value in the memeory address), refrence counter (talked above). On Assignment of used varible, new PyObject is created (insted of changing the value in the address like statictyped). Furthermore, when two PyObject are added(+) Python has to check the typed of both PyObject and search the right `__add__` function to call.
 
+- **Immutable objects:** Python uses memory pools and internalizing frequently on float,int,string. Which increase the overhead time of creating and destroying objects. Operation on immutable (like adding two floats) involve creating and destroying PyObject(heap allocated memory)
