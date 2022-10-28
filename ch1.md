@@ -17,3 +17,8 @@ Include dozen of C code (boilerplate), which call Python/C API. The moudle (exte
 Similarly cython code compile and translate cython code into C extension moudle. So evrey code created by cython can be created by C extension as well. 
 However, Cython is more limited than writing extension by hand.
 
+
+
+## Python Slow? Why?
+
+"""Python is an interpreted, high-level, general-purpose programming language. It is dynamically typed and garbage-collected."""
