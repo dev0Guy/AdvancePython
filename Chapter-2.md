@@ -9,7 +9,8 @@ Cython code can be compile and used in the following options:
 - can be integrated into std build(CMake).
 
 
-** Pipline:** cython code is first compiled into (optimize,platform-independent) C/C++ code and then recompiled into shared library with C/C++ compiler.
+
+**Pipline:** cython code is first compiled into (optimize,platform-independent) C/C++ code and then recompiled into shared library with C/C++ compiler.
 
 
 sdsd
