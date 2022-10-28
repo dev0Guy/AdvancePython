@@ -12,12 +12,10 @@ Cython code can be compile and used in the following options:
 
 ### Pipline:
 Cython code is first compiled into (optimize,platform-independent) C/C++ code and then recompiled into shared library with C/C++ compiler.
-
 **First Step:** Cython Package has cythonize command, which takes cython file and compiled it into C/C++ Code.
-
-
+<br/>
 **Second Step:** Python distutils can compile C source into an extension moudle.
-
+<br/>
 
 sdsd
 
