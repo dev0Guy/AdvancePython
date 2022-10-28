@@ -20,4 +20,11 @@ However, Cython is more limited than writing extension by hand.
 
 
 ## Python Slow? Why?
+
+
 > "Python is an interpreted, high-level, general-purpose programming language. It is dynamically typed and garbage-collected"
+
+**Interpreted & Dynamic:**
+Python is interpreted. Therefore, source file is being compiled into bytecode. Because python is dynamic we canot decide if action is legal before we seeing the actual value. In simple termes, Python convert the source code into byte code and uses the interpeter to convert the byte code into machine code to run on the cpu, while checking the integrity of the action.
+
+**Garbage collection**
